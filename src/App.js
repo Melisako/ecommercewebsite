@@ -1,10 +1,12 @@
-import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Navbar } from "./components/navbar";
-import { Shop } from "./pages/shop/shop";
-import { Contact } from "./pages/contact";
-import { Cart } from "./pages/cart/cart";
-import { ShopContextProvider } from "./context/shop-context";
+import React from 'react';
+import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Navbar } from './components/navbar';
+import Footer from './components/footer';
+import { Shop } from './pages/shop/shop';
+import { Contact } from './pages/contact';
+import { Cart } from './pages/cart/cart';
+import { ShopContextProvider } from './context/shop-context';
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/cart" element={<Cart />} />
           </Routes>
+          <Footer />
         </Router>
       </ShopContextProvider>
     </div>
