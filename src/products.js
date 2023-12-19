@@ -12,7 +12,7 @@ export const PRODUCTS = [
 {
     id:1,
     productName: "Aura",
-    price: 999,
+    price: 9.90,
     productImage:product1,
 
 },
@@ -20,35 +20,35 @@ export const PRODUCTS = [
 {
     id:2,
     productName: "Catrice",
-    price: 760,
+    price: 7.60,
     productImage:product2,
 
 },
 {
     id:3,
     productName: "Rival",
-    price: 900,
+    price: 9.50,
     productImage:product3,
 
 },
 {
     id:3,
     productName: "Essence",
-    price: 1000,
+    price: 10.00,
     productImage:product4,
 
 },
 {
     id:4,
     productName: "Maybelline",
-    price: 1000,
+    price: 5.40,
     productImage:product5,
 
 },
 {
     id:5,
     productName: "S.Oliver",
-    price: 1000,
+    price: 7.80,
     productImage:product6,
 
 },
