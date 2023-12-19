@@ -30,9 +30,9 @@ const Footer = () => {
         </ul>
       </nav>
       <div>
-        <p>Location: Prishtina, Kosovo</p>
+        <p>Location: Suharekë, Kosova</p>
         <p>Phone: 059 888 444</p>
-        <p>Email: info@skincarepr.com</p>
+        <p>Email: info@skincarethr.com</p>
       </div>
     </footer>
   );
