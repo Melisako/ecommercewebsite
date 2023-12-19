@@ -10,8 +10,9 @@ export const Navbar = () => {
 <Link to="/" className="custom-link">Shop</Link>
 <Link to="/cart"></Link>
 <div className="custom-shopping-cart-container">
-  <ShoppingCart size={32}></ShoppingCart>
+  <ShoppingCart size={32} className="shopping-cart-icon"></ShoppingCart>
 </div>
+
 
 </div>
     </div>

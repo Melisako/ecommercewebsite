@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const footerStyles = {
   backgroundColor: '#333',
@@ -19,13 +20,13 @@ const Footer = () => {
       <nav>
         <ul style={{ listStyle: 'none', padding: 0 }}>
           <li style={{ display: 'inline' }}>
-            <a href="#" style={linkStyles}>About Us</a>
+            <Link to="/about" style={linkStyles}>About Us</Link>
           </li>
           <li style={{ display: 'inline' }}>
-            <a href="#" style={linkStyles}>Services</a>
+            <Link to="/services" style={linkStyles}>Services</Link>
           </li>
           <li style={{ display: 'inline' }}>
-            <a href="#" style={linkStyles}>Contact</a>
+            <Link to="/contact" style={linkStyles}>Contact</Link> 
           </li>
         </ul>
       </nav>

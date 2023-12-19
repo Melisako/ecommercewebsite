@@ -36,19 +36,6 @@
 
 
 
-/* Cart icon style */
-.shopping-cart-icon {
-  color: white;
-  cursor: pointer;
-  font-size: 1.5em;
-  margin-right: 15px; /* Increase margin to create space between icon and text */
-  transition: color 0.3s ease, transform 0.3s ease; /* Add transition for transform */
-}
-
-.shopping-cart-icon:hover {
-  color: #ffd700; /* Change cart icon color on hover */
-  transform: scale(1.1); /* Add scale animation on hover */
-}
 
 
 
@@ -60,24 +47,4 @@
   font-family: Arial, sans-serif;
   text-decoration: none;
   /* Add any other desired styles */
-}
-
-/* Styles for the shopping cart icon container */
-.shopping-cart-container {
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-/* Styles for the shopping cart icon itself */
-.shopping-cart-container svg {
-  width: 32px; /* Assuming the icon size is 32px */
-  height: 32px;
-  fill: white; /* Change the fill color to white */
-}
-
-/* Animation on hover */
-.shopping-cart-container:hover {
-  transform: translateY(-5px); /* Move the icon 5px up on hover */
 }
