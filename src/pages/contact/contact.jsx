@@ -1,4 +1,4 @@
-// Footer.jsx
+
 
 import React, { useState } from 'react';
 
@@ -32,7 +32,7 @@ const buttonStyles = {
   transition: 'background-color 0.3s, color 0.3s',
 };
 
-const Footer = () => {
+const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -118,4 +118,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Contact;
