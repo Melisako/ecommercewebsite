@@ -1,8 +1,10 @@
-/* navbar.css */
+body{
+  background-color: #edede9;
+}
 
 .navbar {
-  background-color: #333333; /* Dark grey background color */
-  color: #ffffff; /* White color for text */
+  background-color: #333333; 
+  color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -10,28 +12,30 @@
   display: flex;
 margin-left: 10px;
   padding: 10px 20px;
+
+  align-items: center;
 }
 
 .custom-link {
   text-decoration: none;
-  color: #ffffff; /* White color for links */
-  padding: 8px 12px; /* Smaller space between links */
-  margin-right: 10px; /* Reduced margin between links */
-  font-family: 'Arial', sans-serif; /* Change the font family as needed */
+  color: #ffffff;
+  padding: 8px 12px; 
+  margin-right: 10px; 
+  font-family: 'Arial', sans-serif; 
 }
 
 .custom-link:hover {
-  background-color: #555555; /* Darker grey background on hover */
+  background-color: #555555; 
   border-radius: 5px;
 }
 
 .custom-cart-link {
   text-decoration: none;
-  color: #ffffff; /* White color for cart link */
+  color: #ffffff; 
   display: flex;
   align-items: center;
 }
 
 .shopping-cart-icon {
-  margin-left: 5px; /* Adjust the spacing for the cart icon */
+  margin-left: 5px; 
 }

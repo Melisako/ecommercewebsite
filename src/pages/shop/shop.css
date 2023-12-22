@@ -11,7 +11,10 @@
   box-sizing: border-box;
   background-color: #fff;
 }
-
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 2rem;
+}
 .product img {
   margin-left: 30%;
   max-width: 100%;
