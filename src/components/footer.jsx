@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import './footer.css'
 
 const footerStyles = {
   backgroundColor: '#333',
@@ -6,6 +9,8 @@ const footerStyles = {
   padding: '20px',
   textAlign: 'center',
 };
+
+
 
 const Footer = () => {
   return (
@@ -16,7 +21,18 @@ const Footer = () => {
         <p>Email: info@skincarethr.com</p>
       </div>
       <div>
-        <p>Additional Information or Links Here</p>
+      <div className="additional-links mt-3">
+        
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="social-link">
+          <FontAwesomeIcon icon={faInstagram} size="lg" className="social-icon" />
+        </a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="social-link">
+          <FontAwesomeIcon icon={faFacebook} size="lg" className="social-icon" />
+        </a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="social-link">
+          <FontAwesomeIcon icon={faTwitter} size="lg" className="social-icon" />
+        </a>
+      </div>
       </div>
     </footer>
   );

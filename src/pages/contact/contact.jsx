@@ -112,7 +112,18 @@ const Contact = () => {
         <p>Email: info@skincarethr.com</p>
       </div>
       <div>
+      <div className="additional-links mt-3">
         <p>Additional Information or Links Here</p>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faInstagram} size="2x" className="mr-3" />
+        </a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faFacebook} size="2x" className="mr-3" />
+        </a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faTwitter} size="2x" className="mr-3" />
+        </a>
+      </div>
       </div>
     </footer>
   );
