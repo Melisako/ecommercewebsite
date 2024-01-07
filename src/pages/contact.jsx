@@ -11,15 +11,15 @@ export const Contact = () => {
       <h2>Contact Us</h2>
       <form onSubmit={handleSubmit} className="contact-form">
         <div className="form-group">
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Name🧑</label>
           <input type="text" id="name" name="name" placeholder="Enter Name" required />
         </div>
         <div className="form-group">
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">Email✉️</label>
           <input type="email" id="email" name="email" placeholder="Enter Email" required />
         </div>
         <div className="form-group">
-        <label htmlFor="message">Message</label>
+        <label htmlFor="message">Message 💬</label>
 
           <input type="message" name="message" id="message"  placeholder="Enter Message" required></input>
         </div>
@@ -29,7 +29,9 @@ export const Contact = () => {
       <style>
         {`
           .contact-container {
-            max-width: 800px;
+            border: 4px solid grey;
+            max-width: 700px;
+            max-height: 480px;
             margin: 50px auto;
             margin-bottom: 2rem;
             background-color: #333;
@@ -39,7 +41,8 @@ export const Contact = () => {
           }
 
           .contact-form {
-            margin-bottom: 2rem;
+           
+            margin-bottom: 1rem;
           justify-content: center;
           align-items: center;
             display: flex;
@@ -51,9 +54,9 @@ export const Contact = () => {
           }
 
           label {
-            font-weight: bold;
+            font-weight: 500;
             display:flex;
-            justify-content: center;
+           margin-left:2rem;
             margin-bottom: 1rem;
             font-size: 1.1rem;
           }
@@ -76,6 +79,7 @@ export const Contact = () => {
           }
 
           button {
+            font-weight:bold;
             margin-bottom: 2rem;
             padding: 10px 20px;
             border: none;
