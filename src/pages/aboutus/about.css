@@ -47,3 +47,14 @@ p {
 .company-image:hover {
   transform: scale(1.05);
 }
+/* ButtonStyles.css */
+.custom-button {
+  display: inline;
+  background-color: #3498db; /* Example background color */
+  color: white; /* Text color */
+  padding: 8px 16px; /* Padding */
+  border: none; /* No border */
+  border-radius: 4px; /* Border radius */
+  cursor: pointer; /* Cursor style */
+  /* Add more styles as needed */
+}
